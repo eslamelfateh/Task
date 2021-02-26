@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.gender,
+.location,
+.age,
+.registrationDate {
+  height: 600px;
+  width: 600px;
+  margin: 30px;
+  display: inline;
+}
